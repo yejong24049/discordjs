@@ -16,9 +16,9 @@ client.on('messageCreate', (message) => {
   // 메시지가 봇의 메시지가 아니고, 명령어가 "!ping"일 때
   if (message.content === '!ping') {
     // 서버와의 핑을 측정하고, 결과를 출력합니다.
-    message.reply(`Pong! 🏓 Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
+    message.reply(`Pong! Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
   }
 });
 
 // 봇 로그인
-client.login('YOUR_BOT_TOKEN');
+client.login('MTI2NTUwMDk0OTk1NTIxOTQ5OA.G2TVyz.n8uYa9KFW1JTra8loOP80iBPbMekiqy7zjbmtU');
